@@ -9,14 +9,14 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
     rel="stylesheet"
   />
+
+  <link href="./assests/favicon.png" rel="icon" />
 </head>
-<body>
+<body class="debug-screens">
 
     <!-- Header Start -->
-    
-    <header class="debug-screens">
 
-        <nav class="lg:flex hidden justify-between bg-dark-gray-b px-4 py-2 lg:px-32">
+        <nav class="lg:flex hidden justify-between bg-dark-gray-b px-4 py-2 lg:px-32 xl:px-42 2xl:px-52">
             <div class="flex gap-6">
                 <p class="flex items-center gap-2">
                     <span class="text-white text-sm font-semibold">About the University</span>
@@ -45,11 +45,11 @@
             </div>
           
         </nav>
-        <nav class="flex items-center justify-between lg:gap-4 p-4 bg-gray-b lg:px-32">
+        <nav class="flex items-center justify-between lg:gap-4 p-4 bg-gray-b lg:px-32 xl:px-42 2xl:px-52 sticky top-0 z-10">
             <div class="flex items-center gap-3">
                 <i class="ri-menu-line -text-primary-c text-3xl lg:hidden"></i>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 235.43534 72.22169"
-                 class="w-48 lg:w-36"
+                 class="w-40 lg:w-36"
                 >
                     <defs>
                     <style>.a{fill:#333;}</style>
@@ -78,9 +78,17 @@
                     
             </div>
 
-            <div class="lg:hidden">
-                <i class="ri-menu-line -text-primary-c text-3xl"></i>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"
+                class="fill-current text-dark-gray-b h-10 lg:hidden"
+                >
+                    <style type="text/css">
+                        .st0{fill:none;}
+                    </style>
+                    <rect x="192" y="240" width="128" height="32"></rect>
+                    <rect x="192" y="80" width="128" height="32"></rect>
+                    <rect x="192" y="400" width="128" height="32"></rect>
+                    <rect class="st0" width="512" height="512"></rect>
+                    </svg>
             
             <ul class="lg:flex hidden gap-6 lg:gap-4 text-dark-gray-b font-bold items-center">
                 <li>STUDY</li>
@@ -96,7 +104,6 @@
 
             
         </nav>
-    </header>
 
     <!-- Header End -->
 
@@ -126,10 +133,10 @@
 
     <!-- Study Section Start -->
 
-      <section class="lg:px-32 py-16 space-y-16">
+      <section class="lg:px-32 xl:px-42 2xl:px-52 py-16 space-y-16">
 
-         <div class="flex flex-col gap-6 px-4 lg:flex-row lg:justify-between items-center lg:gap-16">
-            <div class="flex flex-col gap-6 lg:flex-roe lg:justify-between w-full">
+         <div class="flex flex-col px-4 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
+            <div class="flex flex-col gap-6 w-full">
                 <h2 class="text-4xl font-light text-dark-yellow">Study</h2>
 
                 <p class="font-bold text-2xl text-dark-gray-b">Your future is here!</p>
@@ -174,7 +181,7 @@
 
 
     <!-- News Section Start -->
-    <section class="px-4 bg-[#f2f2f2] py-16 space-y-12 lg:px-32">
+    <section class="px-4 bg-[#f2f2f2] py-16 space-y-12 lg:px-32 xl:px-42 2xl:px-52">
      
     <div class="flex flex-wrap text-dark-yellow items-center gap-4 md:justify-between">
         <h2 class="text-4xl font-extralight w-full md:w-24">News</h2>
@@ -246,7 +253,7 @@
 
 
     <!-- We are uni Section Start -->
-      <section class="px-4 bg-[#f2f2f2] py-16 space-y-8 lg:px-32 lg:flex gap-8">
+      <section class="px-4 bg-[#f2f2f2] py-16 space-y-8 lg:px-32 xl:px-42 2xl:px-52 lg:flex gap-8">
 
         <div class="lg:bg-we-bg lg:bg-contain lg:bg-no-repeat lg:bg-right lg:w-[40%]">
             <h3 class="text-4xl font-extralight text-dark-yellow">We are a University of Excellence!</h3>
@@ -275,7 +282,7 @@
      <!-- We are uni Section End -->
 
      <!-- Reserach Section Start-->
-       <section class="px-4 py-16 space-y-4 lg:px-32 lg:flex gap-4 justify-between">
+       <section class="px-4 py-16 space-y-4 lg:px-32 xl:px-42 2xl:px-52 lg:flex gap-4 justify-between">
         <div class="space-y-6">
             <h3 class="text-4xl font-extralight text-dark-yellow">Research</h3>
             <h3 class="text-dark-gray-b font-semibold text-3xl">
@@ -312,7 +319,7 @@
 
     <section class="px-4 py-16 space-y-8 bg-dark-yellow">
 
-       <div class="relative flex flex-col gap-4 items-center justify-center text-center lg:px-32">
+       <div class="relative flex flex-col gap-4 items-center justify-center text-center lg:px-32 xl:px-42 2xl:px-52">
         <div class="font-medium gap-2 flex items-center absolute top-0 right-0">
             <span class="text-white">Learn more</span>
             <div><i class="ri-arrow-right-s-line text-dark-yellow rounded-full font-bold bg-white"></i></div>
@@ -329,7 +336,7 @@
 
        <hr>
 
-       <div class="flex flex-col lg:flex-row lg:justify-between gap-12 items-center justify-center text-center lg:px-32">
+       <div class="flex flex-col lg:flex-row lg:justify-between gap-12 items-center justify-center text-center lg:px-32 xl:px-42 2xl:px-52">
         <div>
             <p class="text-white font-bold text-4xl">+300</p>
             <p class="text-white  text-3xl  font-light">Courses</p>
@@ -353,7 +360,7 @@
 
      <!-- Questions Section End-->
 
-     <section class="px-4 py-16 space-y-6 lg:px-32 relative">
+     <section class="px-4 py-16 space-y-6 lg:px-32 xl:px-42 2xl:px-52 relative">
         <div class="space-y-6">
             <h3 class="text-4xl font-extralight text-dark-yellow">Frequently asked questions</h3>
             <div class="border-2 border-dark-gray-b px-4 py-3 flex justify-between items-center text-dark-gray-b lg:hidden">
@@ -401,7 +408,7 @@
 
       <!-- Footer Start-->
 
-       <footer class="bg-[#333333] px-4 py-16 space-y-12 lg:px-32">
+       <footer class="bg-[#333333] px-4 py-16 space-y-12 lg:px-32 xl:px-42 2xl:px-52 lg:bg-ft-bg lg:bg-no-repeat lg:bg-right-bottom">
 
         <div>
 
@@ -471,7 +478,7 @@
         </div>
             <div class="space-y-2 lg:space-y-0 lg:flex items-center gap-4 lg:text-sm">
                 <p class="text-white">© University of Porto 2024</p>
-                <p class="text-white font-extralight text-center">Personal Dta Protection</p>
+                <p class="text-white font-extralight">Personal Dta Protection</p>
                 <p class="text-white font-extralight">Privacy Policy</p>
                 <p class="text-white font-extralight">Accessibility</p>
             </div>

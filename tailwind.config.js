@@ -13,7 +13,8 @@ module.exports = {
         "dark-yellow": "#a18a4d"
       },
       backgroundImage: {
-        "we-bg": "url('./assests/we-are-bg.png')"
+        "we-bg": "url('./assests/we-are-bg.png')",
+        "ft-bg": "url('./assests/footer-bg.png')"
       }
     },
   },
