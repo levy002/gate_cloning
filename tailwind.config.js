@@ -14,7 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         "we-bg": "url('./assests/we-are-bg.png')",
-        "ft-bg": "url('./assests/footer-bg.png')"
+        "ft-bg": "url('./assests/ft-bg.png')"
       }
     },
   },
