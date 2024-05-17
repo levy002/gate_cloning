@@ -11,6 +11,9 @@ module.exports = {
         "dark-gray-b": "#333333",
         "-primary-c": "#1b1b1b",
         "dark-yellow": "#a18a4d"
+      },
+      backgroundImage: {
+        "we-bg": "url('./assests/we-are-bg.png')"
       }
     },
   },
